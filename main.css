@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.body-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 1200px;
+  height: 600px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(225, 26, 109),
+    rgb(75, 5, 113)
+  );
+  border-radius: 12px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.pre-login {
+  margin: 5%;
+  height: 80%;
+  background-image: linear-gradient(
+    to right,
+    rgb(244, 10, 10),
+    rgb(12, 55, 226)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.content {
+  height: 90%;
+  background-color: black;
+  width: 100%;
+  margin: 0 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  padding-top: 30px;
+}
+.title {
+  margin-bottom: 20px;
+}
+.button {
+  padding: 10px 80px;
+  border: 2px solid #038ddd;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+.forgot-pw {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.btn-login {
+  padding: 10px 30px;
+  border: 2px solid #03ddc0;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+.twitter {
+  margin: 0 30px;
+}
